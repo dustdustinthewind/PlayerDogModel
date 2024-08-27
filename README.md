@@ -66,3 +66,6 @@ Replaces the player models with a dog model!
 
 **[1.0.3]**
 - Fixed models not syncing due to changes introduced with LC_API 3.2. It is now the minimum required version.
+
+**[1.0.4]**
+- updated dependencies to work for LC_API_V50 3.4.9+ and Lethal Company v56+
