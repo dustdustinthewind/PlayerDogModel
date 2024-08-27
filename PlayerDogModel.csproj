@@ -4,7 +4,7 @@
         <TargetFramework>netstandard2.1</TargetFramework>
         <AssemblyName>PlayerDogModel</AssemblyName>
         <Description>A mod to replace Player models with a dog for Lethal Company</Description>
-        <Version>1.0.3</Version>
+        <Version>1.0.4</Version>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
@@ -23,43 +23,40 @@
 
   <ItemGroup>
 	<Reference Include="Assembly-CSharp">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Assembly-CSharp.dll</HintPath>
+	  <HintPath>G:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Assembly-CSharp.dll</HintPath>
+	</Reference>
+	<Reference Include="Facepunch Transport for Netcode for GameObjects">
+	  <HintPath>G:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Facepunch Transport for Netcode for GameObjects.dll</HintPath>
+	</Reference>
+	<Reference Include="Facepunch.Steamworks.Win64">
+	  <HintPath>G:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Facepunch.Steamworks.Win64.dll</HintPath>
+	</Reference>
+	<Reference Include="LC_API_V50">
+	  <HintPath>E:\Roaming\r2modmanPlus-local\LethalCompany\profiles\fix_doggie\BepInEx\plugins\DrFeederino-LC_API_V50\LC_API_V50.dll</HintPath>
+	</Reference>
+	<Reference Include="Newtonsoft.Json">
+	  <HintPath>G:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Newtonsoft.Json.dll</HintPath>
+	</Reference>
+	<Reference Include="Unity.InputSystem">
+	  <HintPath>G:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.InputSystem.dll</HintPath>
+	</Reference>
+	<Reference Include="Unity.Netcode.Runtime">
+	  <HintPath>G:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.Netcode.Runtime.dll</HintPath>
+	</Reference>
+	<Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
+	  <HintPath>G:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+	</Reference>
+	<Reference Include="Unity.TextMeshPro">
+	  <HintPath>G:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.TextMeshPro.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEngine">
 	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.dll</HintPath>
 	</Reference>
-	<Reference Include="UnityEngine.UI">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.UI.dll</HintPath>
-	</Reference>
 	<Reference Include="UnityEngine.AnimationModule">
 	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
 	</Reference>
-	<Reference Include="Unity.InputSystem">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.InputSystem.dll</HintPath>
-	</Reference>
-	<Reference Include="Unity.Netcode.Components">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.Netcode.Components.dll</HintPath>
-	</Reference>
-	<Reference Include="Unity.Netcode.Runtime">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.Netcode.Runtime.dll</HintPath>
-	</Reference>
-	<Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
-	</Reference>
-	<Reference Include="Unity.TextMeshPro">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Unity.TextMeshPro.dll</HintPath>
-	</Reference>
-	<Reference Include="Facepunch Transport for Netcode for GameObjects">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Facepunch Transport for Netcode for GameObjects.dll</HintPath>
-	</Reference>
-	<Reference Include="Facepunch.Steamworks.Win64">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Facepunch.Steamworks.Win64.dll</HintPath>
-	</Reference>
-	<Reference Include="Newtonsoft.Json">
-	  <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Newtonsoft.Json.dll</HintPath>
-	</Reference>
-	<Reference Include="LC_API">
-	  <HintPath>..\LC_API.dll</HintPath>
+	<Reference Include="UnityEngine.UI">
+	  <HintPath>G:\SteamLibrary\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.UI.dll</HintPath>
 	</Reference>
   </ItemGroup>
 </Project>
